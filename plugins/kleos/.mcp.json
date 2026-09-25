@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kleos": {
+      "type": "http",
+      "url": "${KLEOS_MCP_URL:-https://mcp.zurc.app/mcp}"
+    }
+  }
+}

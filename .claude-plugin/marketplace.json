@@ -1,0 +1,12 @@
+{
+  "name": "kleos",
+  "owner": { "name": "Kleos", "url": "https://ugc.zurc.app" },
+  "metadata": { "description": "Kleos for AI agents: generate, schedule and measure UGC-style TikTok and Instagram posts for your app." },
+  "plugins": [
+    {
+      "name": "kleos",
+      "source": "./plugins/kleos",
+      "description": "The Kleos MCP server, the method skill and /kleos-semana in one install."
+    }
+  ]
+}

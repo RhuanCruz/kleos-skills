@@ -1,0 +1,13 @@
+{
+  "name": "kleos",
+  "displayName": "Kleos",
+  "version": "0.1.0",
+  "description": "Generate, schedule and measure UGC-style TikTok and Instagram posts for your app with Kleos: the MCP server, the method skill and /kleos-semana in one install.",
+  "author": {
+    "name": "Kleos",
+    "url": "https://ugc.zurc.app"
+  },
+  "homepage": "https://ugc.zurc.app/docs/agentes",
+  "license": "UNLICENSED",
+  "keywords": ["kleos", "ugc", "tiktok", "instagram", "social media", "mcp"]
+}
