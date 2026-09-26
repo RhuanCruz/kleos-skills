@@ -3,7 +3,7 @@
 Skills and the Claude Code plugin for [Kleos](https://ugc.zurc.app): generate, schedule and measure UGC-style TikTok and Instagram posts for your app from any AI agent.
 
 - **MCP server:** `https://mcp.zurc.app/mcp` (one-click login, or an API key from Settings › API keys)
-- **CLI:** `npx kleos`
+- **CLI:** `npx kleos-cli`
 - **Docs for agents:** https://ugc.zurc.app/docs/agentes · https://ugc.zurc.app/llms.txt
 
 | Skill | Use when |
@@ -36,4 +36,4 @@ openclaw skills install kleos-cli
 # or: openclaw skills install git:RhuanCruz/kleos-skills
 ```
 
-**The CLI installs them too:** `npx kleos skill install`
+**The CLI installs them too:** `npx kleos-cli skill install`

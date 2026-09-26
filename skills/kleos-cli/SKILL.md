@@ -1,6 +1,6 @@
 ---
 name: kleos-cli
-description: Use the Kleos CLI (`kleos` / `npx -y kleos`) to generate, review, schedule and measure UGC-style TikTok and Instagram posts for an app, from any agent that can run shell commands (OpenClaw, Codex, Hermes, CI, cron). Triggers - "use Kleos", "generate posts for my app", "plan the week of posts", "schedule posts on TikTok/Instagram", "how are my posts doing", "launch posts", "gerar posts no Kleos", "gerar posts pro meu app", "planejar a semana de posts", "agendar no TikTok", "agendar no Instagram", "revisar a fila de posts", "relatório semanal de posts". Needs `kleos login` (browser) or KLEOS_API_KEY.
+description: Use the Kleos CLI (`kleos` / `npx -y kleos-cli`) to generate, review, schedule and measure UGC-style TikTok and Instagram posts for an app, from any agent that can run shell commands (OpenClaw, Codex, Hermes, CI, cron). Triggers - "use Kleos", "generate posts for my app", "plan the week of posts", "schedule posts on TikTok/Instagram", "how are my posts doing", "launch posts", "gerar posts no Kleos", "gerar posts pro meu app", "planejar a semana de posts", "agendar no TikTok", "agendar no Instagram", "revisar a fila de posts", "relatório semanal de posts". Needs `kleos login` (browser) or KLEOS_API_KEY.
 license: Proprietary
 compatibility: Node 22+ and network access to https://mcp.zurc.app/mcp. `kleos login` once on a machine with a browser, or KLEOS_API_KEY in the environment (servers, CI, cron).
 metadata: {"openclaw": {"requires": {"bins": ["npx"], "env": ["KLEOS_API_KEY"]}, "primaryEnv": "KLEOS_API_KEY"}}
@@ -13,7 +13,7 @@ videos, wall-of-text) for apps on TikTok and Instagram. The `kleos` CLI is a
 client of the same MCP server: every command is one tool call. **The writing
 method lives in Kleos**: you orchestrate, the person decides, Kleos writes.
 
-Run it as `kleos …` if installed (`npm i -g kleos`), otherwise `npx -y kleos …`.
+Run it as `kleos …` if installed (`npm i -g kleos-cli`), otherwise `npx -y kleos-cli …`.
 Sign in once with `kleos login` (opens the browser; the token renews by
 itself). Where nobody can open a browser, use an API key: `KLEOS_API_KEY` in
 the environment, or `kleos login --key kleos_sk_…`.
