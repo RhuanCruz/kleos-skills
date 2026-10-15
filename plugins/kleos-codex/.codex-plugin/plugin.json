@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kleos",
+  "version": "0.3.0",
+  "description": "Create, schedule and measure UGC-style TikTok and Instagram content for your app with Kleos: carousels, videos, AI influencers and ads, done by your agent.",
+  "author": { "name": "Kleos", "email": "contact@zurc.app", "url": "https://ugc.zurc.app" },
+  "homepage": "https://ugc.zurc.app/docs/agentes",
+  "repository": "https://github.com/RhuanCruz/kleos-skills",
+  "license": "UNLICENSED",
+  "keywords": ["kleos", "ugc", "tiktok", "instagram", "carousel", "social media", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Kleos",
+        "shortDescription": "UGC posts for your app",
+        "longDescription": "Kleos turns your app into a steady stream of UGC-style content. Ask your agent for a week of TikTok and Instagram carousels, faceless videos, AI-influencer clips or ad variations; Kleos writes, designs, shows you the result and schedules it on your connected accounts. You approve before anything is published, and you can see reach and engagement back in the chat.",
+        "developerName": "Kleos",
+        "category": "Productivity",
+        "websiteURL": "https://ugc.zurc.app",
+        "privacyPolicyURL": "https://ugc.zurc.app/privacidade",
+        "termsOfServiceURL": "https://ugc.zurc.app/termos",
+        "defaultPrompt": "Plan this week's TikTok carousels for my app and show me before scheduling",
+        "brandColor": "#1f6feb",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}

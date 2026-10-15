@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "kleos": {
+      "type": "streamable-http",
+      "url": "https://mcp.zurc.app/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": { "type": "oauth", "client": { "mode": "dcr" } }
+        }
+      }
+    }
+  }
+}

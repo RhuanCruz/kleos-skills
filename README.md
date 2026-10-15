@@ -37,3 +37,11 @@ openclaw skills install kleos-cli
 ```
 
 **The CLI installs them too:** `npx kleos-cli skill install`
+
+## Codex (and ChatGPT desktop)
+
+```bash
+codex plugin marketplace add RhuanCruz/kleos-skills
+```
+
+Installs the `kleos` plugin: the remote MCP server (`https://mcp.zurc.app/mcp`, sign-in with your Kleos account via OAuth) plus the `kleos` and `kleos-cli` skills. Source in `plugins/kleos-codex`.
